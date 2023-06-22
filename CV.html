@@ -1,15 +1,20 @@
+<head>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
 <header id="header">
 
+   
     <div>   
-        <strong><a class="hlink" href="index.html" >Inici</a></strong>
-        <strong><a class="hlink" href="CV.html" >CV</a></strong>
-        <strong><a class="hlink" href="contacte.html" >Contacte</a></strong>
+       
+        <div  class="link"><strong><a class="hlink" href="index.html" >Inici</a></strong> </div>
+        <div class="link"> <strong><a class="hlink" href="CV.html" >CV</a></strong> </div>
+            <div class="link"> <strong><a class="hlink" href="contacte.html" >Contacte</a></strong> </div>
     </div>
-
 
 </header>
 
 <body>
+    <div id="index">
     <h1>Cristian Gomollon Escribano</h1>    
         <img src="assets/img/header2.jpeg" alt="header CV">
 
@@ -18,29 +23,32 @@
         <h4><a href="#dades">Dades personals</a></h4>
         <h4><a href="#est">Estudis</a></h4>
         <h4><a href="#lab">Laboral</a></h4>
-    
-
-    <h2 id="dades">Dades personals</h2>
-    <div>
-        <p><span>Nom:</span>Cristian Gomollon Escribano</p>
-        <p><span>Lloc de Naixement:</span> Barcelona</p>
-        <p><span>Data de Naixement:</span> 23/02/1985</p>
     </div>
-    <div>
-        <p><span>Adreça:</span> C/XXXXX 100</p>
-        <p><span>Localitat:</span> Barcelona</p>
-        <p><span>Provincia:</span> Barcelona</p>
-        <p><span>CP:</span> 08034</p>
+    <div id="dades">
+        <h2 >Dades personals</h2>
+        <div>
+            <p><span>Nom:</span>Cristian Gomollon Escribano</p>
+            <p><span>Lloc de Naixement:</span> Barcelona</p>
+            <p><span>Data de Naixement:</span> 23/02/1985</p>
+        </div>
+        
+
+        <div>
+            <p><span>Adreça:</span> C/XXXXX 100</p>
+            <p><span>Localitat:</span> Barcelona</p>
+            <p><span>Provincia:</span> Barcelona</p>
+            <p><span>CP:</span> 08034</p>
+        </div>
     </div>
 
-
-    <h2 id="lang">Idiomes</h2>
+    <div id="langs">
+    <h2 >Idiomes</h2>
         <table>
             <thead>
                 <th>Idioma</th>
                 <th>Nivell Baix</th>
                 <th>Nivell Mig</th>
-                <th>Nivell Alt/th>
+                <th>Nivell Alt</th>
                 <th>Natiu</th>
                 
             </thead>
@@ -49,8 +57,9 @@
             <tr><td>Anglès</td><td></td><td>X</td><td></td><td></td> </tr>
 
         </table>
+    </div>
 
-
+    <div id="ests">
     <h2 id="est">Estudis</h2>
 
     <ul>
@@ -71,8 +80,9 @@
             <p>Universitat Oberta de Catalunya (UOC Cursant)</p>
         </li>
     </ul>
-
-    <h2 id="lab">Laboral</h2>
+    </div>
+<div id="lab">
+    <h2>Laboral</h2>
 
     <ul>
         <li><p><strong>Becari al CRECIM</strong> (Bellaterra, 2013)</p></li>
@@ -81,5 +91,5 @@
         <p>Tasques de suport tècnic als usuaris del servei de càlcul cientìfic al CSUC.</p>
 
         </ul>
-
+    </div>
 </body>

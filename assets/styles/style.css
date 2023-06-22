@@ -1,0 +1,156 @@
+header
+{
+    background-color: rgb(100,100,100);
+    height: 50px;
+    width: 100%;
+
+}
+.link{
+    margin-top:10px;
+    width: 100px;
+    float:left;
+    display:block;
+    margin-left: 10px;
+}
+.link:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgb(200, 200, 200);
+    
+}
+.link >strong >a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+
+}
+.link >strong >a:hover{
+    color: black;
+}
+
+img
+{
+    width: 200px;
+    height: 200px;
+}
+
+#presentacio
+{
+    margin: auto;
+    width:1200px;
+}
+#presentacio>img
+{
+    width: 100%;
+    height: 200px;
+}
+
+#temes
+{
+    margin:auto;
+    width: 1200px;
+    height: 400px;
+}
+.tema 
+{
+    margin-left:20px;
+    width: 23%;
+    float: left;
+    text-align: justify;
+}
+.tema > img
+{
+   width: 250px;
+}
+
+#affs
+{
+    width: 1200px;
+    margin:auto;
+    height: 500px;
+
+
+}
+
+.af
+{
+    width: 33%;
+    float: left;
+    margin:auto;
+}
+
+.af > img {
+    width:320px ;
+}
+
+#index
+{
+    width: 1200px;
+    margin:auto;
+    height: 600px;
+    text-align: center;
+}
+#index > img{
+    width: 1200px;
+}
+
+#dades
+{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(240,240,240);
+    margin:auto;
+
+}
+
+#langs
+{
+    width: 300px;
+    height: 200px;
+    background-color:rgb(240,240,240);
+    margin:auto;
+
+}
+
+#ests
+{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(240,240,240);
+    margin:auto;
+
+}
+
+#lab
+{
+    width: 400px;
+    height: 200px;
+    background-color:rgb(240,240,240);
+    margin:auto;
+
+}
+
+#cont
+{
+   width: 1200px;
+   margin:auto;
+   height: 300px; 
+}
+
+#cont > img
+{
+    width: 500px;
+}
+
+.camps{
+    width: 200px;
+    display: block;
+    margin-top: 10px;
+}
+#textb
+{
+    width: 300px;
+    height: 300px;
+}
